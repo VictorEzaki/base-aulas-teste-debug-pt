@@ -1,6 +1,6 @@
 class Service {
-    Somar(num1, num2) {
-        return num1 - num2;
+    Somar(num1, num2) {        
+        return num1 + num2;
     }
 
     Subtrair(num1, num2) {
@@ -16,4 +16,4 @@ class Service {
     }
 }
 
-export default new Service()
+export default new Service();
