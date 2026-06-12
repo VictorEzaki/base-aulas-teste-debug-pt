@@ -3,8 +3,8 @@ import Service from "../services/exercicios.js"
 class Controller {
     Somar(req, res) {
         try {
-            const { num1, num3 } = req.body
-            const resultado = Service.Somar(num1, num3)
+            const { num1, num2 } = req.body
+            const resultado = Service.Somar(num1, num2)
             
             res.status(200).send({ resultado })
         } catch (error) {
