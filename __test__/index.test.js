@@ -8,12 +8,12 @@ describe('Testes para função somar', () => {
         expect(result).toBe(100);
     })
 
-    it('Deve somar dois números negativos -1 e 99, ', () => {
+    it('Deve somar um número negativo e um positivo -1 e 99, ', () => {
         const result = Service.Somar(-1, 99);
         expect(result).toBe(98);
     })
 
-    it('Deve somar dois números negativos 1.5 e 2.3, ', () => {
+    it('Deve somar dois decimais 1.5 e 2.3, ', () => {
         const result = Service.Somar(1.5, 2.3);
         expect(result).toBe(3.8);
     })
