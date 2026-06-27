@@ -14,7 +14,7 @@ class Controller {
     
     Subtrair(req, res) {
         try {
-            const { num1, num2 } = req.body.nums
+            const { num1, num2 } = req.body
             const resultado = Service.Subtrair(num1, num2)
             
             res.status(200).send({ resultado })
